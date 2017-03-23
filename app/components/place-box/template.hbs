@@ -1,1 +1,16 @@
-<h1> {{place.name}} </h1>
+{{#paper-card as |card|}}
+{{#card.title as |title|}}
+  {{#title.text as |text|}}
+    {{#text.headline}}
+      {{place.name}}
+    {{/text.headline}}
+    {{#text.subhead}}Large{{/text.subhead}}
+  {{/title.text}}
+  {{title.media size="lg" src=place.photo title=place.name}}
+{{/card.title}}
+{{#card.actions}}
+  {{#paper-button}}Action 1{{/paper-button}}
+  {{#paper-button}}Action 2{{/paper-button}}
+{{/card.actions}}
+{{/paper-card}}
+
