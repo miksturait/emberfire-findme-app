@@ -23,11 +23,10 @@ module.exports = function(environment) {
     },
 
     firebase: {
-      apiKey: 'AIzaSyC3HOVf611gRfKtSp105TOQfzvo4l7jIU4z',
-      authDomain: 'find-me-6cd5d.firebaseapp.comm',
-      databaseURL: 'https://find-me-6cd5d.firebaseio.comm',
-      storageBucket: 'find-me-6cd5d.appspot.comm',
-      messagingSenderId: '304688820416'
+      apiKey: "AIzaSyC3HOVf611gRfKtSp105TOQfzvo4l7jIU4",
+      authDomain: "find-me-6cd5d.firebaseapp.com",
+      databaseURL: "https://find-me-6cd5d.firebaseio.com",
+      storageBucket: "find-me-6cd5d.appspot.com"
     },
   };
 
